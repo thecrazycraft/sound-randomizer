@@ -14,7 +14,7 @@ This repository contains a Unity script designed for randomizing and playing aud
 
 To use this script in your Unity project, follow these steps:
 1. Add the `SoundRandomizer.cs` script to your project.
-2. Create a prefab or (child) gameobject that the script will use as a basis.
+2. Create a prefab or (child) gameobject with an `audio source` that the script will use as a basis.
 3. Customize the settings for audio clips, volume, and pitch ranges within the Unity Inspector.
 4. Call the `PlayRandomizedSound()` method to trigger random sound playback in your game.
 
