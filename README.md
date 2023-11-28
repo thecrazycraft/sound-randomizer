@@ -7,18 +7,18 @@ This repository contains a Unity script designed for randomizing and playing aud
 - **Randomized Audio Playback:** Utilize an array of audio clips to play random sounds with adjustable volume and pitch variations.
 - **Flexible Integration:** Easily integrate the script into Unity projects by specifying a sound player prefab and adjusting volume/pitch ranges for randomized playback.
 - **Disabling Functionality:** Includes an option to disable sound playback when necessary within the game environment.
+- **Audio Template:** Utilizes a template to enable the utilization of audio mixers, spatial blend, and enhanced visualization of the 3D sound settings, without overcomplicating the scripts settings.
 - **Efficient Cleanup:** Incorporates an `IEnumerator` coroutine to manage the destruction of the instantiated sound player GameObject after the audio finishes playing, ensuring efficient resource management.
 
 ## Usage
 
 To use this script in your Unity project, follow these steps:
 1. Add the `SoundRandomizer.cs` script to your project.
-2. Customize the settings for audio clips, volume, and pitch ranges within the Unity Inspector.
-3. Call the `PlayRandomizedSound()` method to trigger random sound playback in your game.
+2. Create a prefab or gameobject that the script will use as a basis.
+3. Customize the settings for audio clips, volume, and pitch ranges within the Unity Inspector.
+4. Call the `PlayRandomizedSound()` method to trigger random sound playback in your game.
 
-This script offers a convenient solution for integrating randomized audio effects into Unity projects, enhancing the auditory experience for game players.
-
-## Example
+## Code
 
 ```csharp
 using System.Collections;
